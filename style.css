@@ -1,0 +1,56 @@
+body {
+    background-color: lightcyan;
+    color: black;
+    
+}
+
+section#after {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+
+section#before {
+    flex-direction: row;
+}
+
+header {
+    color:blue;
+    text-align: center;
+}
+
+/*article {
+    border: 1px solid blue;
+    color: black;
+    padding: 50px;
+    width: 40%;
+    margin: auto;
+}*/
+
+article div div{
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 5px;
+    display: block;
+}
+article div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form input, label {
+    display: flex;
+}
+
+div.empty {
+    background-color: #faa;
+} 
+
+@media screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+}
